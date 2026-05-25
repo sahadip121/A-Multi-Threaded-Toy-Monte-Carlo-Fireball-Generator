@@ -1,2 +1,4 @@
 # A-Multi-Threaded-Toy-Monte-Carlo-Fireball-Generator
 The objective is to build a standalone C++ program that simulates the thermal emission of particles (e.g., pions) from a heavy ion collision "fireball," stores them in a structured way, and analyzes their transverse momentum ($p_T$) and rapidity ($y$) distributions using multiple CPU threads.
+<br>
+Phase 1: The Class HierarchyCreate an abstract base class Particle. Give it pure virtual functions for calculating kinematic variables (e.g., GetPt(), GetRapidity()).Create a derived class Pion that inherits from Particle. It should store the four-momentum components ($p_x, p_y, p_z, E$).
